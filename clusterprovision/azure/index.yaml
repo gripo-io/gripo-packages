@@ -1,0 +1,16 @@
+- name: azure-basic
+  packageType: cluster-provisioning
+  templateTypes:
+    - workload
+    - management
+  version: 0.0.1
+  cloudServiceProvider: azure
+  fileName: cluster-template.yaml
+- name: azure-aks
+  packageType: cluster-provisioning
+  templateTypes:
+    - workload
+    - management
+  version: 0.0.1
+  cloudServiceProvider: azure
+  fileName: cluster-template-aks.yaml
